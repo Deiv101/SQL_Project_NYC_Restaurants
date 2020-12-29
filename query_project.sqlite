@@ -37,7 +37,6 @@ FROM nomnom
 WHERE neighborhood = 'Midtown' OR neighborhood = 'Downtown' OR neighborhood = 'Chinatown';
 _______________________________________________________________________________________________________________
 
-
 --9.
 SELECT name AS 'Health Unreviewed'
 FROM nomnom 

@@ -16,7 +16,6 @@ SELECT *
 FROM nomnom
 WHERE cuisine = 'Chinese';
 _______________________________________________________________________________________________________________
-
 --5. 
 SELECT name, review
 FROM nomnom

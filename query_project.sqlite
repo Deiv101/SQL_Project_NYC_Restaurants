@@ -63,6 +63,8 @@ SELECT name AS 'Top 10 Best Reviewed Restaurants', review AS 'Rated'
 FROM nomnom
 ORDER BY review DESC
 LIMIT 10;
+_______________________________________________________________________________________________________________
+
 
 --11.
 SELECT name, review,

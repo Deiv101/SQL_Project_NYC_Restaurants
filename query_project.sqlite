@@ -27,7 +27,6 @@ FROM nomnom
 WHERE cuisine = 'Italian' AND price = '$$$';
 _______________________________________________________________________________________________________________
 
-
 --7. 
 SELECT name AS 'Trey remembers this'
 FROM nomnom

@@ -1,2 +1,2 @@
 # SQL_Project_NYC_Restaurants
-Project analysis in SQL via @Codedemy
+Project analysis in SQL via @Codecademy

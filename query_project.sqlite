@@ -39,7 +39,7 @@ ________________________________________________________________________________
 --9.
 SELECT name AS 'Health Unreviewed'
   FROM nomnom 
-WHERE health IS NULL;
+    WHERE health IS NULL;
 __________________________________________________________________________________________________________________________________________________________________
 --10.
 SELECT name AS 'Top 10 Best Reviewed Restaurants', review AS 'Rated'

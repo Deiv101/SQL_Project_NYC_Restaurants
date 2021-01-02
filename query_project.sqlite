@@ -49,13 +49,13 @@ SELECT name AS 'Top 10 Best Reviewed Restaurants', review AS 'Rated'
 __________________________________________________________________________________________________________________________________________________________________
 --11.
 SELECT name, review,
-  CASE
-    WHEN review > 4.5 THEN 'Extraordinary'
-    WHEN review > 4 THEN 'Excellent'
-    WHEN review > 3 THEN 'Good'
-    WHEN review > 2 THEN 'Fair'
-    ELSE 'Poor'
-  END AS New_Rating_System
+    CASE
+      WHEN review > 4.5 THEN 'Extraordinary'
+      WHEN review > 4 THEN 'Excellent'
+      WHEN review > 3 THEN 'Good'
+      WHEN review > 2 THEN 'Fair'
+      ELSE 'Poor'
+    END AS New_Rating_System
 FROM nomnom
 ORDER BY 3;
 __________________________________________________________________________________________________________________________________________________________________

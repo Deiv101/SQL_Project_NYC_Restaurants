@@ -34,7 +34,7 @@ ________________________________________________________________________________
 --8.
 SELECT name AS 'Closeby restaurants'
   FROM nomnom
-WHERE neighborhood = 'Midtown' OR neighborhood = 'Downtown' OR neighborhood = 'Chinatown';
+    WHERE neighborhood = 'Midtown' OR neighborhood = 'Downtown' OR neighborhood = 'Chinatown';
 __________________________________________________________________________________________________________________________________________________________________
 --9.
 SELECT name AS 'Health Unreviewed'

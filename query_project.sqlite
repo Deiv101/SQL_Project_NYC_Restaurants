@@ -56,7 +56,7 @@ SELECT name, review,
       WHEN review > 2 THEN 'Fair'
       ELSE 'Poor'
     END AS New_Rating_System
-FROM nomnom
+      FROM nomnom
 ORDER BY 3;
 __________________________________________________________________________________________________________________________________________________________________
 

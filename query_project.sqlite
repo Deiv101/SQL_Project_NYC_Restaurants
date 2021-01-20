@@ -1,5 +1,5 @@
 --1.  
-SELECT *
+SELECT * 
   FROM nomnom 
     LIMIT 2;          
                         
